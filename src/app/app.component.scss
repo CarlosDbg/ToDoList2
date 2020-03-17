@@ -1,0 +1,95 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: gray;
+    padding: 30px 0px;
+    margin-top: 0px;
+    border-radius: 10px;
+    color: white;
+    
+}
+
+.main{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #d7d7d7;
+    border-bottom: 0px;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 20px;
+    font-family: sans-serif;
+
+}
+
+.addItem{
+    position: relative;
+    padding-bottom: 0px;
+    height: 20px;
+
+}
+
+.text {
+    width: 80%;
+    height: 25px;
+    position: relative;
+    top: -5px;
+    right: 25px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid #b3afaf;
+    border-radius: 10px;
+
+    outline: none;
+
+}
+
+button{
+    position: relative;
+    top: -5px;
+    left: -15px;
+}
+
+ul {
+
+    list-style: none;
+    font-size: 20px;
+    color: #686868;
+    margin-left: -40px;
+    margin-bottom: 0px;
+
+}
+
+li {
+    border-bottom: 1px solid #bfbfbf;
+    background-color: #d7d7d7;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+
+
+}
+
+span{
+    cursor: pointer;
+    position: relative;
+    float: right;
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+
+.addItem button{
+
+    padding: 10px 20px;
+    width: 50px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+    outline: none;
+    font-weight: bold;
+    background: rgb(36,36,158);
+    background: linear-gradient(90deg, rgb(48, 48, 170) 23%, rgba(0,212,255,1) 100%);
+    box-shadow: 0 6px 8px rgba(0,0,0,.1);
+    border-radius: 10px;
+
+}

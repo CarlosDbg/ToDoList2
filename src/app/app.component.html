@@ -1,0 +1,13 @@
+<div class="main">
+  <h1>Exercicio</h1>
+  <div class="addItem">
+    <input [(ngModel)] = "novoItem" placeholder="Atividade" class="text" (blur) ="pushItem()" (keyup.enter)="pushItem()">
+    <button (click) = "pushItem()" style="color: white;"> + </button>
+  </div>
+  <ul>
+    <li *ngFor = "let i of itens; let ind = index">
+      {{i}}
+      <span (click) = "removerItem(ind)" style="color: red;">x</span>
+    </li>
+  </ul>
+</div>
